@@ -20,7 +20,7 @@
     type in `adminlist` and press enter 
 
   * To add new topic and date:
-    type in `adminnew` follow by topic `(Project_Management)` and date `(April_1_2015)` then press enter
+    type in `adminnew` follow by topic `Project_Management` and date `April_1_2015` then press enter
 
 #####Server Spec:
 1) Inform developers with latest meetup notice everytime someone signs in to telnet.
