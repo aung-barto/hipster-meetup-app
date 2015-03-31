@@ -7,17 +7,17 @@
 
 3) Once they've RSVP'd, developers will see a confirmation with: 
 
-...meetup date, 
-...topic, 
-...head count of attendees,
-...and a message for them to exit telnet
+...meetup date,.. 
+...topic,..
+...head count of attendees,..
+...and a message for them to exit telnet..
 
 4) If this is Genevieve, she has two options:
 
-...To get rsvp list:
+...To get rsvp list:..
 ...type in adminlist and press enter..
 
-...To add new topic and date:
+...To add new topic and date:..
 ...type in adminnew follow by topic (Project_Management) and date (April_1_2015) then press enter..
 
 #####Server Spec:
