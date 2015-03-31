@@ -42,7 +42,6 @@ var server = net.createServer(function(socket) {
 
  //adding new topic and date
  		else if (message[0] === 'adminnew') {
- 			// for (var i = 1; i < message.length; i++){
 				info.push(message);
 				console.log(info);
 				fs.writeFile('meetup.json', info, function(err) {
@@ -53,7 +52,16 @@ var server = net.createServer(function(socket) {
 		    			socket.write('new info saved');
 		    		}
 		    	});
-			// }
+ 		}
+ 		else if (message[0] === 'adminclear') {
+ 			fs.unlink('meetup.json', info, function(err) {
+ 				if(err) {
+ 					console.log(err);
+ 				}
+ 				else {
+ 					socket.write("List is cleared for the next Meetup.");
+ 				}
+ 			});
  		}
 
 //getting developers info

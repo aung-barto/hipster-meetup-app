@@ -23,6 +23,10 @@
   * To add new topic and date:
     type in `adminnew` follow by topic `Project_Management` and date `April_1_2015` then press enter
 
+  * To clear rsvp list:
+    type in `adminclear`
+    once list is cleared, a confirmation `List is cleared for the next Meetup.` will pop up.
+
 #####Server Spec:
 1) Inform developers with latest meetup notice everytime someone signs in to telnet.
 
