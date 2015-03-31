@@ -1,8 +1,8 @@
 ###Hipster Code Meetup Specs
 
 #####Developers & Genevieve Spec:
-1) Developers can access telnet thru a http link, assumed Genevieve provides this link via emails. 
-`https://github.com/aung-barto/hipster-meetup-app.git`
+1) Developers can access telnet thru IP address `104.236.106.226`, assumed Genevieve provides this link via emails. 
+
 
 2) Users will be presented with the latest Meetup location and time and RSVP instruction.
 
