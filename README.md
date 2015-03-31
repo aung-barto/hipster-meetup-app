@@ -7,18 +7,18 @@
 
 3) Once they've RSVP'd, developers will see a confirmation with: 
 
-  meetup date,  
-  topic,  
-  head count of attendees,  
-  and a message for them to exit telnet  
+  <dd>meetup date,</dd>
+  <dd>topic,</dd>
+  <dd>head count of attendees,</dd>
+  <dd>and a message for them to exit telnet</dd>  
 
 4) If this is Genevieve, she has two options:
 
-  To get rsvp list:  
-  type in adminlist and press enter  
+  <dd>To get rsvp list:</dd>
+  type in `adminlist` and press enter</dd>  
 
-  To add new topic and date:  
-  type in adminnew follow by topic (Project_Management) and date (April_1_2015) then press enter  
+  <dd>To add new topic and date:</dd> 
+  <dd>type in `adminnew` follow by topic `(Project_Management)` and date `(April_1_2015)` then press enter</dd>
 
 #####Server Spec:
 1) Inform developers with latest meetup notice everytime someone signs in to telnet.
